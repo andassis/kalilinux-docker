@@ -23,6 +23,10 @@ RUN DEBIAN_FRONTEND=noninteractive apt -yq install \
 RUN apt -y dist-upgrade && \
 apt -y autoremove && \
 apt clean all
+# Instalação do Sn1per
+RUN git clone https://github.com/1N3/Sn1per /opt/sn1per && \
+    cd /opt/sn1per && \
+    bash install.sh
 COPY startup.sh /startup.sh
 ENV PASSWORD=kalilinux
 ENV SHELL=/bin/bash
