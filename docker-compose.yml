@@ -5,7 +5,7 @@ services:
     build:
       context: ./
       dockerfile: Dockerfile
-    image: 'csalab/kalilinux-docker:latest'
+    image: 'andassys/kalilinux-docker:latest'
     volumes:
       - ./root:/root
       - ./sniper:/usr/share/sniper/loot/workspace/
