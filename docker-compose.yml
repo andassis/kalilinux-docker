@@ -6,6 +6,9 @@ services:
       context: ./
       dockerfile: Dockerfile
     image: 'csalab/kalilinux-docker:latest'
+    volumes:
+      - ./root:/root
+      - ./sniper:/usr/share/sniper/loot/workspace/
     restart: always
     cap_add:
       - NET_ADMIN
