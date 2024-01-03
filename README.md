@@ -1,4 +1,4 @@
-# Kali Linux desktop on the browser
+# Kali Linux desktop on the browser "Add Sn1per"
 
 This repository contains a Docker Compose application that runs single containers to provide a kali linux desktop on the browser.
 
