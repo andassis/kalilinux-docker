@@ -1,5 +1,5 @@
 FROM kalilinux/kali-rolling:amd64
-LABEL maintainer="admin@csalab.id"
+LABEL maintainer="andassis@gmail.com"
 WORKDIR /root
 RUN apt update && \
 apt -y upgrade
