@@ -23,6 +23,7 @@ To run this Docker Compose application, you need to have the following software 
 
 To start the application, run the following command in the root directory of the repository:
 ```
+docker pull kalilinux/kali-rolling:latest
 docker-compose up
 ```
 This will start all the containers and you should be able to access the web application at http://localhost:8080/vnc.html
