@@ -1,4 +1,4 @@
-FROM kalilinux/kali-rolling:amd64
+FROM kalilinux/kali-rolling:latest
 LABEL maintainer="andassis@gmail.com"
 WORKDIR /root
 RUN apt update && \
